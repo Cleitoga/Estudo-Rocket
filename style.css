@@ -77,7 +77,7 @@ body * {
   z-index: 1;
   transform: translateY(-50%);
 
-  animation: slide-back 0.2s;
+  animation: slide-back 0.4s;
 }
 
 .light #switch button {
@@ -180,10 +180,11 @@ ul li a:hover {
 }
 
 /* animation */
-#keyframes slide-in {
+@keyframes slide-in {
   from {
-    left: 0;
+    left: 0%;
   }
+
   to {
     left: 50%;
   }
@@ -193,7 +194,8 @@ ul li a:hover {
   from {
     left: 50%;
   }
+
   to {
-    right: 0;
+    right: 0%;
   }
 }
